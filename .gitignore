@@ -1,0 +1,29 @@
+# logs
+logs/
+*.log
+
+# build dir/files
+*.o
+*.out
+*.a
+*.so
+*.exe
+cmake-build-debug/
+cmake-build-release/
+
+# ide files
+.idea/
+
+# cmake generated (for now)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# temporary files
+*.swp
+*.tmp
+*~
+
+# documentation build artifacts
+docs/html/
+
